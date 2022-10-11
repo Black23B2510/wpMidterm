@@ -1,0 +1,120 @@
+/* 
+Theme Name: GuitarBlock
+ 
+Author: congbio
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/GuitarBlock/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: Theme Description.
+Version: 1.0.0
+Text Domain: congbio
+License: GNU v3 or Later 
+*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo {
+    height: 200px;
+    width: 200px;
+}
+.header-socialMedia img {
+    height: 50px;
+    width: 50px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.header button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+.header input {
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    border: solid 1px;
+    padding: 0 30px;
+    outline: none;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 207, 88);
+    color: rgb(18, 16, 16);
+    padding: 10px;
+}
+.navigation ul {
+    /* list-style-type: none; */
+    font-weight: bolder;
+}/*# sourceMappingURL=homepage.css.map */
+
+ 
+.top_content{
+    display: flex;
+}
+
+.fuild_header {
+    background-color: rgb(51, 189, 38);
+    color: rgb(18, 16, 16);
+}
+.category-name li a span{
+    color: rgb(18, 16, 16);
+}
+.content {
+    width: 85%;
+    margin: auto;
+
+}
+.top_content {
+    display: flex;
+    gap: 20px;
+}
+.abc img {
+    width: 400px ;
+    height: 150px   ;
+    object-fit: cover;
+}
+.xyz img {
+    width: 350px;
+    height: 120px;
+    object-fit: cover;
+}
+.primary__wrapper{
+    display: flex;
+    column-gap: 20px;
+}
+.lmn .entry-title a {
+    font-size: 30px;
+    color: rgb(249, 22, 22);
+}
+.news {
+    display: grid;
+    gap: 20px;
+}
+.news .entry-header {
+    font-weight: bold;
+}
+.top_content_left{
+    color: brown;
+}
+.fuild_header .header_mainmenu ul li a{
+    color: black;
+}
+.news.row{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.list-post{
+    list-style-type: circle;
+}
