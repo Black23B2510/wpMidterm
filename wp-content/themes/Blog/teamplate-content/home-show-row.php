@@ -1,5 +1,5 @@
 <div class="home_newpost">
-
+    <h3 class="post-title">Xu hướng đọc</h3>
     <ul class="news row">
         <?php $postquery = new WP_Query(array('posts_per_page' => '4'));
 		if ($postquery->have_posts()) {

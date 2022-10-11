@@ -118,3 +118,8 @@ License: GNU v3 or Later
 .list-post{
     list-style-type: circle;
 }
+.post-title{
+    color: brown;
+    font-weight: bold;
+    font-size: larger;
+}
