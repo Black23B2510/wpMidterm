@@ -111,7 +111,7 @@ License: GNU v3 or Later
     color: black;
 }
 .news.row{
-    margin-top: 32px;
+    margin: 32px;
     display: flex;
     gap: 24px;
 }
@@ -119,6 +119,7 @@ License: GNU v3 or Later
     list-style-type: circle;
 }
 .post-title{
+    margin: 0 0 32px 32px;
     color: brown;
     font-weight: bold;
     font-size: larger;

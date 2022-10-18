@@ -288,8 +288,6 @@ if (!function_exists('congbio_entry_content')) {
   }
 }
 
-
-
 // Hàm hiển thị tag của post
 // congbio_entry_tag()
 
@@ -350,21 +348,6 @@ if( isset( $_POST[ 'meta-checkbox' ] ) ) {
 add_action( 'save_post', 'sm_meta_save' );
 
 // ==========================
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // test
 // test
@@ -432,18 +415,6 @@ function setpostview($postID){
       update_post_meta($postID, $count_key, $count);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Nhungws file style.css
 
