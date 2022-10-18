@@ -51,22 +51,22 @@
     <div class="container">
         <?php
 
-        $curl = curl_init();
+        $curl = curl_init(); //Khai báo crul (thư viện được sử dụng để truyền dữ liệu thông qua nhiều giao thức: HTTP,...)
 
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://62904135665ea71fe12f6eef.mockapi.io/products',
-            CURLOPT_RETURNTRANSFER => true,
+        curl_setopt_array($curl, array( //Thiết lập curl
+            CURLOPT_URL => 'https://62904135665ea71fe12f6eef.mockapi.io/products', //đường dẫn gửi request
+            CURLOPT_RETURNTRANSFER => true, //Kết quả trả về là dạng chuỗi
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
+            CURLOPT_TIMEOUT => 0,//Thời gian duy trì kết nối của curl là vô tận với giá trị = 0
             CURLOPT_FOLLOWLOCATION => true,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
             CURLOPT_CUSTOMREQUEST => 'GET',
         ));
 
-        $response = curl_exec($curl);
+        $response = curl_exec($curl); //curl-exec() -> hàm thực thi -> trả vè kết quả là một chuỗi
 
-        curl_close($curl);
+        curl_close($curl); //Đóng request, giải phóng tài nguyên
 
 
         $data = json_decode($response);
